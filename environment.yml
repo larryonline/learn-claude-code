@@ -1,0 +1,13 @@
+name: learn-claude-code
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+- python=3.8
+- pip
+- pip:
+  - anthropic>=0.25.0
+  - python-dotenv>=1.0.0
+  - pyyaml>=6.0
